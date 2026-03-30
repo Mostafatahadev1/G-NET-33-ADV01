@@ -72,7 +72,25 @@
 
             #endregion
 
+            #region Question 4
+            // A method that uses a type parameter (like T)
+            // so it can work with different data types without rewriting it
 
+            /*
+             public static void Swap<T>(ref T a, ref T b)
+                {
+                    T temp = a;
+                    a = b;
+                    b = temp;
+                }
+             */
+
+            // int x = 100, y = 200;
+            // Swap(ref x, ref y);
+            // Console.WriteLine($"x: {x}, y: {y}"); // x: 200, y: 100
+
+
+            #endregion
 
 
         }
